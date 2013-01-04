@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrap { width:980px; margin:0 auto; overflow:hidden; }
+a:focus { outline:none; }
+/* 清除浮动 */
+.clearfix:after { clear:both; content:"\20"; display:block; font-size:0; height:0; line-height:0; visibility:hidden }
+.clearfix { display:block; zoom:1 }
+.clearlistspace { display:block; clear:both; height:8px; line-height:8; font-size:0; border-bottom:1px #ccc dashed; }
+/*您的位置*/
+.position { height:35px; line-height:35px; overflow:hidden; padding-bottom:8px; zoom:1; background:#fff; }
+.position a { color:#025b9b; text-decoration:none; }
+.position a:hover { text-decoration:underline; }
+/**/
+.Afull{ position:relative; width:978px; float:left; border:1px #f4f4f4 solid;height:220px;margin:20px 0;+display:inline;}
+.Atop li{width:486px; height:220px;border-bottom:none; position:absolute; top:0 ; left:0; background:#fff; z-index:5}
+#Amenu2 {left:488px;}
+.regmain1box { position:absolute; top:220px; left:0; clear:both;  border:2px #0461a2 solid; height:602px; width:974px; z-index:1 }
+.regmain { clear:both; text-align:center; }
+.regmenu1box {overflow:hidden; height:220px; width:978px; text-align:left; }
+#menu1 li { float:left; display:block; cursor:pointer; width:486px; text-align:center; height:218px;
+	border:2px #f9f9f9 solid;border-bottom:none;  display:inline; }
+#regxmain1 ul { display: none; }
+#regmain1 ul.block { display: block; }
+
+/*人个注册*/
+#Amenu1{display:block;width:489px;float:left;height:220px;}
+#Amenu2{display:block;width:488px;float:right;height:220px;}
+.Alipadding{width:1px;float:left;display:block;height:220px;background:#f4f4f4;}
+
+.regPerTitleL{padding-left:60px;float:left;height:216px;}
+.regPerTitleL .regPerImg { width:69px; height:146px; display:block; background:url(../images/icon_regpercon.gif) no-repeat 0 0; 
+		margin:45px 30px 0 40px; float:left; +display:inline;
+}
+.regPerTitleL .regPerInfo h1 { color:#f60; font-size:28px; font-family:"微软雅黑"; height:30px; line-height:30px; 
+		float:left; display:block; margin:20px 0 0px 40px; font-weight:normal; }
+.regPerTitleL .regPerInfo dl { float:left; font-family:"微软雅黑"; font-size::12px;
+		overflow:hidden; margin:5px 0 10px 40px; width:200px; margin:25px 0 0 30px; }
+.regPerTitleL .regPerInfo dd { float:left; height:20px; line-height:20px; display:block; width:160px; }
+.regPerTitleL .regPerInfo .regPerInfobold { padding:0 0 5px 0; width:200px; }
+
+/*商家注册*/
+.regConTitleL{float:left;height:216px;padding-left:40px;}
+.regConTitleL .regConImg { width:135px; height:139px; display:block; background:url(../images/icon_regpercon.gif) no-repeat;
+		background-position:0 -161px; margin:45px 10px 0 0; float:left; +display:inline;
+}
+.regConTitleL .regConInfo{float:left;width:275px;}
+.regConTitleL .regConInfo h1 { color:#f60; font-size:28px; font-family:"微软雅黑"; height:30px; line-height:30px; 
+		float:left; display:block; margin:20px 0 0px 30px; font-weight:normal; }
+.regConTitleL .regConInfo dl { float:left; font-family:"微软雅黑"; font-size::12px;
+overflow:hidden; margin:5px 0 10px 40px; width:200px; margin:25px 0 0 30px; +display:inline;
+}
+.regConTitleL .regConInfo dd { float:left; height:20px; line-height:20px; display:block; width:160px; text-align:left; }
+.regConTitleL .regConInfo .regConInfobold { padding:0 0 5px 0; width:200px; }
+
+/*商家注册，注册详细类型*/
+.regConMain { font:12px Verdana,"SimSun"; width:650px;overflow:hidden;border:1px #cbcbcb solid;
+		left:50%;height:auto;z-index:108;position:absolute;background:#e7e7e7;padding:3px;}
+.regConMain .regConInner li.bord{border:1px #0461a2 solid;}
+#TB_overlayBG{background-color:#444;position:absolute;z-index:99;left:0;top:0;display:none;width:100%;height:100%;opacity:0.5;filter: alpha(opacity=50);-moz-opacity: 0.5;}
+.regConMain .closediv{height:30px;line-height:30px;display:block;float:left;widht:640px;}
+.regConMain .closediv span{float:left;padding-left:10px;display:block;widht:320px;}
+.regConMain .closediv .spinfo1{padding:0 30px 0 10px;}
+.regConMain .closediv .spinfo2{padding-left:300px;}
+.regConMain .closediv a{display:block;height:30px;line-height:30px;float:left;font-weight:bold;color:#333;padding:0 20px 0 46px;}
+.regConMain .closediv a:hover{color:#f60;}
+.regmain ul li { display:block; }
+.regConMain .regConInner {float:left; overflow:hidden;padding:15px;z-index:111;margin:5px;background:#fff;display:inline;}
+.regConMain .regConInner ul{width:608px;margin:0 auto;}
+.regConMain .regConInner li {border:1px #fff solid;float:left; overflow:hidden;background-color:#fdfdfd; cursor:pointer;display:inline;}
+.regConMain .regConInner a.regHotel{background:url(../pic/reg_bg_1231.jpg) no-repeat 0 0 transparent;display:block;width:606px;height:130px;}
+.regConMain .regConInner a.regMall{background:url(../pic/reg_bg_1231.jpg) no-repeat 0 -153px transparent;display:block;width:606px;height:130px;}
+.regConMain .regConInner a.reglvxingshe{background:url(../pic/reg_bg_1231.jpg) no-repeat 0 -313px transparent;display:block;width:606px;height:130px;}
+
+/*个人注册页面*/
+.regPerNone { border:none; float:left; width:978px; display:block; position:relative; background:#fff; height:600px; margin:0 auto; border:1px #f4f4f4 solid;}
+.regPerNone .regHeaderPer { display:block; padding:10px 0; float:left; width:978px; margin:10px 0 5px 0; +display:inline;}
+.regPerNone .regdtitlePer { float:left; width:100%; height:40px; background:url(../images/help_point.gif) repeat-x 0 bottom; margin:0 auto; }
+.regPerNone .regHeaderPer dl { border-bottom: 2px solid #f60; color: #f60; float:left; font-size: 28px; font-weight: bold; height: 38px; padding: 0px 5px 0 5px; }
+.regPerNone .regTable input { text-align:left; font-family:Verdana, arial, sans-serif; line-height:normal; background-image:url("../images/bgx.png"); 
+		BACKGROUND-REPEAT: repeat-x; border: 1px solid #C1C1C1; background-color:#fbfbfb; background-position:0px -72px; font-size: 14px; color:#444444; height:25px; line-height:25px; }
+.regPerNone .regTable { float:left; display:block; padding:50px 0 40px 20px;}
+.regPerNone .regTable dt, .regPerNone .regTable dd { line-height:30px; height:30px; }
+.regPerNone .regTable dl { width:600px; overflow:hidden; clear:both; padding:8px 0 0 0; }
+.regPerNone .regTable dd { float:left; }
+.regPerNone .regTable .reg_dt { height:30px; line-height:30px; float: left; font-weight: bold; text-align: right; width: 90px; padding-right:10px; }
+.regPerNone .regTable .regI { color:#ccc; }
+.regPerNone .regTable .reginVcode { width:100px; }
+.regPerNone .regTable .regTips { height:20px; line-height:20px; padding:0; color:#ffa200; }
+.regPerNone .regTable .regInBtn { width:99px; height:30px; background:url(../images/icon_regpercon.gif) no-repeat -82px 0; border:none; cursor:pointer; }
+
+/*商家注册页面*/
+.regConpage { width:978px; float:left; border:1px #f4f4f4 solid; }
+.regConpage .regHeader { display:block; padding:10px 0; float:left; width:978px; margin:10px 0 5px 0; +display:inline;}
+.regConpage .regdtitle { float:left; width:100%; height:40px; background:url(../images/help_point.gif) repeat-x 0 bottom; margin:0 auto; }
+.regConpage .regHeader dl { border-bottom: 2px solid #f60; color: #f60; float:left; font-size: 28px; font-weight: bold; height: 38px; padding: 0px 5px; }
+.regConpage .regTable input { text-align:left; font-family:Verdana, arial, sans-serif; line-height:normal; background-image:url("../images/bgx.png"); BACKGROUND-REPEAT: repeat-x; border: 1px solid #C1C1C1; background-color:#fbfbfb; background-position:0px -72px; font-size: 14px; color:#444444; height:25px; line-height:25px; }
+.regConpage .regTable { float:left; display:block; padding:50px 0 40px 40px; xborder:1px solid #000; }
+.regConpage .regTable dt, .regConpage .regTable dd { line-height:35px; height:35px; }
+.regConpage .regTable dl { width:600px; overflow:hidden; clear:both; padding:8px 0 0 0; }
+.regConpage .regTable dd { float:left; }
+.regConpage .regTable .reg_dt { height:30px; line-height:30px; float: left; font-weight: bold; text-align: right; width: 90px; padding-right:10px; }
+.regConpage .regTable .regI { color:#ccc; }
+.regConpage .regTable .reginVcode { width:100px; }
+.regConpage .regTable .regTips { height:20px; line-height:20px; padding:0; }
+.regConpage .regTable .regInBtn { width:99px; height:30px; background:url(../images/icon_regpercon.gif) no-repeat -82px 0; border:none; cursor:pointer; }
+/*复选框*/
+ .reg_dt_chk { float:left; width:16px; height:16px; border:0 none; outline: none; }
+/*输入错误时的提示信息*/
+.regTable .regWarning_Tips { color:#f00; width:200px; height:30px; display:block; padding-left:10px; text-align:left; }
+.regTable .icon_warning { background:url(../images/icon_regpercon.gif) no-repeat -146px -45px; display:block; width:25px; height:26px; }
+/*输入正确时的提示信息*/
+.regTable .icon_ringInfo { background:url(../images/icon_regpercon.gif) no-repeat -146px -86px; display:block; width:25px; height:26px; padding:0; }
+.regTable .regRight_Tips { color:#558060; width:200px; height:30px; display:block; padding-left:10px; text-align:left; }
+/*其他登录方式*/
+.regPerNone .regOtherway { width:255px; height:180px; float:left; position:absolute; left:600px; top:140px; }
+.regPerNone .regLi { }
+.regLi h2 { height: 40px; display:block; background:#f4f4f4; text-align:center; line-height:40px; font-family:"宋体"; font-size:14px; font-weight:normal; margin-bottom:10px; }
+.regLi .regOO dd { text-align:left; float:left; padding:2px 0; width:120px; height:25px; line-height:25px; padding-left:2px; }
+.regLi .regOO dd a { height:22px; line-height:22px; display:block; margin-left:10px; }
+.regOO .regO_renren { background:url(../images/icon_reg_logo.gif) no-repeat 0px 2px; padding-left:25px; }
+.regOO .regO_QQ { background:url(../images/icon_reg_logo.gif) no-repeat 0px -78px; padding-left:25px; }
+.regOO .regO_msn { background:url(../images/icon_reg_logo.gif) no-repeat 0px -58px; padding-left:25px; }
+.regOO .regO_sina { background:url(../images/icon_reg_logo.gif) no-repeat 0px -18px; padding-left:25px; }
+.regOO .regO_alipay { background:url(../images/icon_reg_logo.gif) no-repeat 0px -118px; padding-left:25px; }
+.regOO .regO_soda { background:url(../images/icon_reg_logo.gif) no-repeat 0px -38px; padding-left:25px; }
+.regOO .regO_telcom { background:url(../images/icon_reg_logo.gif) no-repeat 0px -98px; padding-left:25px; }
+
+/*圆角  其他登录方式 和  弹出层 用*/
+.g_img_set { border-width:1px; border-style:solid; border-color:#ccc; border-radius:4px 4px 4px 4px; -moz-border-radius:4px; 
+-khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; }
+

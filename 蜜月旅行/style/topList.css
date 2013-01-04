@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body {background:#ecf9ff;}
+.main_box {margin-top: 20px; background: #fff; background:url(../images/footer_bg.jpg) no-repeat center bottom;}
+.wrap { background: #fff; position: relative; overflow:hidden; margin:0 auto;}
+.topList_box { margin:0 5px; width:970px; zoom:1; overflow:hidden; border-bottom:1px solid #eaeaea; background: #fff; display:block; height:52px;}
+.topList_box h2 { float:left;background: url(../images/title_box_img.gif) no-repeat -8px -169px;width:200px; height:50px; text-indent: -8888px;}
+.topList_box .topList_position { height:30px; line-height: 30px; padding-right:6px;padding-top: 24px; color:#8d8d8d; font-family:"宋体";}
+.topList_box .topList_position a {color:#8d8d8d;}
+.mvideo_title h2 { float:left;background: url(../images/title_box_img.gif) no-repeat -4px -49px;width:200px; height:51px; text-indent: -8888px;}
+.wedproduct_title h2 { float:left;background: url(../images/title_box_img.gif) no-repeat -11px 1px;width:200px; height:51px; text-indent: -8888px;}
+
+.wrap h3 {font:24px/28px "微软雅黑";color:#575757; text-align:center; display:block; padding:5px 0;margin: 25px 0 20px;}
+.wrap .w_more { position: absolute;width:165px; height: 37px; top:23px; right:9px;}
+
+.wrap .contentL,.wrap .contentR { width:20px; background: #fff; height:500px; }
+.wrap .mainCont { padding:10px 20px 10px 20px; overflow:hidden;}
+.wrap .page_box { height:40px; text-align:center; line-height:40px; background:#eee;margin-bottom:20px; display:inline-block; width:980px;}
+.pre_box, .next_box { width:430px; }
+.pre_box span, .next_box span { color:#959595; font-family:"宋体"; }
+.pre_box a, .next_box a { color:#575757; }
+.pre_box a.hover, .next_box a.hover { color:#575757; }
+.pre_box { text-align:right; padding-right:50px;}
+.next_box {text-align:left; padding-left:50px;}
+
+/*列表页面 */
+.infoList {padding:0; width:215px; background:#fff; height:900px;}
+.rContent {background:#fff url(../images/sub_bg_1.jpg) no-repeat top right; overflow:hidden; width:752px; border:1px solid #deebf1;}
+.btnReset { left:216px; top:20px; width:none;}
+.left_title_img {background: url(../images/title_box_img.gif) no-repeat 0 -170px; width:200px; height: 50px;}
+
+/*微电影列表页*/
+.pic_mvideo {background-position:10px -45px;}
+.s_v_boxlist li { background: url(../images/border-bg_mv.png) no-repeat scroll 10px 8px transparent; width:218px; padding:8px 9px 16px; height:237px; margin:0 0 0 8px;}
+.s_v_boxlist li dl {height: 243px; width: 229px;}
+.s_v_boxlist li dl .v_summary {padding: 10px 8px 0; }
+.s_v_boxlist li dl .v_title {font: 18px/26px "微软雅黑"; }
+.s_v_boxlist li dl dt { padding:2px 3px 0;}
+.s_v_boxlist li dl dt img{ padding:4px 2px 2px; width:218px;}
+/*微电影的遮罩*/
+.converBg {position:absolute; top:10px;left:10px; width:232px ;height:130px;display:none;} 
+/*微电影视频页*/
+.v_video { margin:0 auto; text-align:center; margin-bottom:20px;}
+
+/*婚纱作品列表页*/
+.pic_zuopin { background-position:0 4px;}
+.zp_list { width:730px; margin:0 0 0 33px; list-style:none; }
+.zp_list li { float:left; display:inline; margin:0 10px 20px 0; padding:6px; border:1px #DDD solid; }
+.zp_list li.onhover {background:#eee;}
+.sub_box { position:relative; }
+.sub_title,.masker  {position:absolute;text-align:right; bottom:10px; display:block; width:200px; font:bold 14px/22px "宋体";color:#ffa510;_bottom:20px;}
+.masker {background:#000; opacity: 0.65;-moz-opacity: 0.65;filter:alpha(opacity=65); width:200px; display:block; height:30px; bottom:6px;_bottom:18px;}
+
+/*日历部分*/
+.caleBig { padding:0 35px; overflow:hidden; background:#fff;}
+.cals { width:635px; background:#FFF;}
+catitleyb { border-collapse:collapse;}
+.catitletb, .catitletr { background-color:#d41040; height:30px; color:#fff;  border-collapse:collapse; }
+.ca_pre { display:block; width:20px; height:20px; background:url(../images/cal_pre.jpg) no-repeat; margin-left:10px;}
+.ca_next { display:block; width:20px; height:20px; background:url(../images/cal_next.jpg) no-repeat;}
+.caBody { border-collapse:collapse; border:1px solid #fcf3f4; border:1px; color::#fff;}
+.caBody tr td { border:1px solid #f0b6c2; height:32px; text-align:center; width:44px; vertical-align:top;}
+.cafff { color:#fff; height:26px; border:1px solid #f3b6c5; border-top:none;}
+.calEnoughred {color:#fff; background:#d41040;}
+.calEnoughgray {color:#adadad; background:#e5e5e5;}
+.calendar_box { }
+.cale_info { background:#fff;padding:15px; overflow:hidden; width:240px; height:216px; border: 1px solid #F1B7C5; border-left:none; }
+.cale_info dt {font:700 14px/28px "宋体"; color:#747474;}
+.cale_info dd { padding-left:20px; line-height:20px; color:#747474;}
+
+
+/*主题列表 二级页面*/
+.mainCont ul { overflow:hidden;}
+.mainCont ul li { float:left; margin:0 14px 10px 0; display:inline;}
+.mainCont ul li p {color:#db9a00;  text-align:center;padding:5px 0;}
+.mainCont ul li a {color:#db9a00;font-family: "宋体"; font-size:14px;}
+.mBar { height:30px; background:#ddd; }
+.mCtxt {padding:20px 10px 10px; line-height:25px; font-size:14px; color:#8f8f8f; text-indent:2em;}

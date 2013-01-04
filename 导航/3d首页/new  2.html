@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "#www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="#www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <title>首页 top</title>
+        <link rel="stylesheet" type="text/css" href="style/ss.css">
+        <script type="text/javascript" src="3D/jquxery.js"></script>
+		<script type="text/javascript">
+		$(function(){
+            //顶部栏目我的账号！
+            $("#mycard_li,#layer_mycard").hover(function(){
+                    $("#mycard_li").addClass("on");
+                    $("#mycard_li i").addClass("ico01");
+                    $("#layer_mycard").show();
+				},
+                function(){
+                    $("#mycard_li").removeClass("on");
+                    $("#mycard_li i").removeClass("ico01");
+                    $("#layer_mycard").hide();
+                }
+                )	
+				
+                $("#dh_li,#layer_dh").hover(
+                    function(){
+                        $("#dh_li").addClass("on");
+                        $("#dh_li i").addClass("ico01");
+                        $("#layer_dh").show();
+                    },
+                    function(){
+                        $("#dh_li").removeClass("on");
+                        $("#dh_li i").removeClass("ico01");
+                        $("#layer_dh").hide();
+                    }
+                )                     
+            })
+		</script>	
+    </head>
+    <body>
+        <div class="top">
+            <div class="full">
+                <div class="topL fl">
+					<span class="f60">
+                    您好，欢迎来到3D旅游！
+					<a href="#login/" target="_blank">[ 请登录 ]</a>
+					<a href="#register/">[ 免费注册 ]</a>	
+					</span>
+				</div>
+                <div class="topR fr">
+                    <ul class="c55"><!---->
+                        <li class="card" id="mycard_li">
+							<a href="">我的账号</a>
+							<i class="ico0"></i>
+						</li>
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">网站首页</a></li>
+                        <li class="card" id="dh_li">
+							<a href="#">网站导航</a><i class="ico0"></i>
+                        </li>
+                    </ul>
+					<!-- 我的账号  展开层 --> 
+                    <div class="layer_mycard" id="layer_mycard">
+                        <ul>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">我的收藏</a></li>
+                        </ul>
+                    </div>
+                    <!-- 网站导航  展开层 -->
+                    <div class="layer_dh" id="layer_dh">
+                        <dl>
+                            <dt>旅游产品</dt>
+                            <dd style="height:45px">
+                            <a href="#mall.umyou.com/">3D商城</a>
+                            <a href="#lxs.umyou.com/">旅游度假</a>
+                            <a href="">酒店预订</a>
+                            <a href="#">机票预订</a>  
+                            </dd>
+                            
+                            <dt>旅游指南</dt>
+                            <dd style="height:45px">
+                            <a href="#d.umyou.com/jingdian/">旅游景点</a>
+                            <a href="#">美食小吃</a>
+                            <a href="#">旅游购物</a>
+                            <a href="#">休闲娱乐</a> 
+                            </dd>            
+                            <dt>热门栏目</dt>
+                            <dd style="height:65px; border:0">
+                            <a href="#">游记</a>
+                            <a href="#">攻略</a>
+                            <a href="#">地图</a>
+                            <a href="#">资讯</a>   
+                            <a href="#">点评</a>
+                            <a href="#">问答</a>
+                            </dd>            
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+		<div class="mid">
+			<div class="midnav">
+				<div class="topL fl">
+					<span class="f60">
+                    您好，欢迎来到3D旅游！
+					<a href="#login/" target="_blank">[ 请登录 ]</a>
+					<a href="#register/">[ 免费注册 ]</a>	
+					</span>
+				</div>
+				
+				<div class="topR fl">
+					<ul class="c55 mid55"><!--midMyid-->
+						<li class="midon"><a href="#.">我的账号</a></li>
+						<li><a href="#.">帮助中心</a></li>
+						<li><a href="#.">网站首页</a></li>
+						<li><a href="#.">网站导航</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>

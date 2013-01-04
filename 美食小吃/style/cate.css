@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrap{width:980px; margin:0 auto; overflow:hidden;}
+span{margin:0;padding:0;}
+/******************************************************/
+a:focus{ outline:none; -moz-outline:none;}
+
+/* 清除浮动 */
+.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden}
+.clearfix{display:block;zoom:1}
+
+
+.cate_hot_list a.hot_list_p,
+.coldFoods_list a.hot_list_p,
+.hotFood_links a,
+.traveLine_list a{
+    color:#555;
+}
+.cate_hot_list a.hot_list_p:hover,
+.coldFoods_list a.hot_list_p:hover,
+.hotFood_links a:hover,
+.traveLine_list a:hover{
+    color:#f60;
+}
+/*您的位置*/
+.position{ height:30px; line-height:30px; overflow:hidden; padding-bottom:8px;zoom:1;background:#fff;}
+.position a{color:#025b9b; text-decoration:none;}
+.position a:hover{ text-decoration:underline;}
+
+/**热门推荐**/
+.box_cate_hotSuggest,.box_coldFoods{
+    float:left;
+    width:710px;
+    overflow:hidden;
+}
+.cate_hotSuggest_title,.coldFoods_title{
+    width:100%;
+    float:left;
+    height:30px;
+    margin:0 0 10px ;
+    background: url(../images/help_point.gif) repeat-x 0 bottom;
+    
+}
+.cate_hotSuggest_title h3,.coldFoods_title h3{
+    padding:0 5px;
+    font-size:16px;
+    font-weight:bold;
+    color:#0451a2;
+    height:28px;
+    float:left;
+    line-height:28px;
+    border-bottom:2px solid #0451a2;
+}
+.cate_hot_list li{
+    float:left;
+    margin:15px 14px 10px;
+    display:inline;
+}
+.cate_hot_list li a.hot_list_name,.coldFoods_list li a.hot_list_name{
+    display:block;
+    border:1px #ccc solid;
+    padding:5px;
+    color:#555;
+}
+.cate_hot_list li a.hot_list_name:hover,.coldFoods_list li a.hot_list_name:hover{
+    border:1px #025b9b solid;
+}
+.cate_hot_list p,.coldFoods_list p{
+    text-align:center;
+    font:14px/14px sans-serif;
+    padding:10px 0 0;
+}
+.coldFoods_list li{
+    float:left;
+    margin: 15px 10px 10px;
+    display:inline;
+}
+.coldFoods_list p{
+    font:12px/14px sans-serif;
+}
+.coldFoods_list li a.hot_list_name{
+    padding:1px;
+}
+/*paging*/
+.paging{
+    width:710px;
+    margin-top:20px;
+    display:inline-block;
+}
+.page{text-align:right;float:right;font-size:12px;_width:370px;}
+.page a{ display:block; float:left;line-height:15px; padding:5px 10px; margin:10px 2px; border:1px solid #ccc; color:#6e6e6e;}
+.page a:hover{border:1px solid #f60; color:#f60; text-decoration:none;}
+.page .pu{background:url(../images/zone_pageUp.png) no-repeat 0px 6px; height:25px;line-height:25px;width:50px;padding:0 6px 0 2px;}
+.page .pd{width:50px;padding:0px 10px 0px 0;height:25px;line-height:25px;background:url(../images/zone_pageDown.png) no-repeat 46px 6px;}
+.page .pageOn{ border:1px solid #f60; color:#f60;}
+
+/*aside 右边*/
+.box_aside_food{
+    width:250px;
+    background: #fff;
+    float:right;
+}
+.box_foodSearch,.box_hotFood,.box_traveLine{
+    border:1px solid #ccc;
+    margin-bottom:10px;
+}
+.box_foodSearch i,.hotFood_title i,.traveLine_title i{
+    float:left;
+    margin: 14px 6px 0 12px;
+    width:8px;
+    height:5px;
+    display:inline-block;
+    background:url(../images/cate_dot.gif) no-repeat 0 0;
+}
+.box_foodSearch h4,.hotFood_title h4,.traveLine_title h4{
+    background: #fbfbfb;
+    font-size:12px;
+    height:30px;
+    line-height:30px;
+    padding-left:30px;
+    font-family:sans-serif;
+    color:#0451a2;
+    *padding-left:0px;
+}
+.foodSearch,.hotFood_links,.traveLine_list{
+    border-top:1px solid #ccc;
+    padding:15px 5px 10px 10px;
+    color:#555;
+}
+.foodSearch .foodSearch_input input{
+    color:#ccc;
+    margin:0 0 0 2px;
+    height:18px;
+    width:115px;
+    display:inline;
+    border:1px #ccc solid;
+}
+.foodSearch .foodSearch_btn input{
+    background:url(../images/cate_dot.gif) no-repeat -18px 0;
+    width:54px;
+    height:20px;
+    margin-left:-2px;
+    display:inline;
+    text-indent:-9999px;
+    cursor:pointer;
+}
+.hotFood_links{
+    padding:8px;
+}
+.hotFood_links a{
+    padding:0 3px;
+    height:28px;
+    line-height:28px;
+    text-align:justify;
+}
+.traveLine_list{
+    padding:8px;
+}
+.traveLine_list li{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    width:200px;
+    height:22px;
+    line-height:22px;
+    padding:0 5px 0 18px;
+    background:url(../images/cate_dot.gif) no-repeat -72px 9px ;
+}

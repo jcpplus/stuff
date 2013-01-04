@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="mynav.css" />
+        <script type="text/javascript" href="js/jquery7.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#id_current").hover(
+                    function(){
+                        $("#id_current").addClass("cs_currenton");
+                        $(".cursor").show();
+                    },
+                    function(){
+                        $(("#id_current")).removeClass("cs_currenton");
+                    }
+                )
+            });
+        </script>
+	<title>动态效果的导航条其实就是JQ而已了。</title>
+</head>
+<body>
+    	<div class="top">
+    <div class="wrap">
+        <div class="topR">
+            <span>您好！这里是3D旅游网<a href="#.">[请登录]</a><a href="#.">[注册账号]</a></span>
+        </div>
+        <div class="topL">
+            <div class="tnav">
+            	<ul>
+            		<li class="cs_current"id="id_current">
+            			<a href="#.">我的账号</a>
+            		</li>
+            		<li>
+            			<a href="#">帮助中心</a>
+            		</li>
+            		<li>
+            			<a href="#">网站首页</a>
+            		</li>
+            		<li>
+            			<a href="#">网站导航</a>
+            		</li>
+            	</ul>
+
+                <div class="cur_subm">
+                    <ul>
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">我的XX</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+</body>
+</html>

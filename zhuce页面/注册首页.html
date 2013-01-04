@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>注册首页</title>
+        <link href="style/base.css" rel="stylesheet" type="text/css" />
+        <link href="style/huiyuanreg.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript">
+            $(function(){
+
+                $("#Amenu2").hover
+                (
+                    function(){
+                        $(this).addClass("hover").css({background:"#fafafa",cursor:"pointer"});
+
+                    },
+                    function(){
+                        $(this).removeClass("hover").css({background:""});
+                    }
+                );
+                $("#Amenu1").hover
+                (
+                    function(){
+                        $(this).addClass("hover").css({background:"#fafafa",cursor:"pointer"});
+
+                    },
+                    function(){
+                        $(this).removeClass("hover").css({background:""});
+                    }
+                );
+
+                $(".showbox").click(function(){
+                    $("#TB_overlayBG").css({
+                        display:"block",height:$(document).height(),width:$(document).width()
+                    });
+                    $(".regConMain").css({
+                        left:($("body").width()-$(".regConMain").width())/2-20+"px",
+                        top:($(window).height()-$(".regConMain").height())/2+$(window).scrollTop()+"px",
+                        display:"block"
+                    });
+                });
+
+                $(".closea").click(function(){
+                    $("#TB_overlayBG").css("display","none");
+                    $(".regConMain ").css("display","none");
+                    return false;/*IE6*/
+                });
+
+                })
+            </script>
+
+        </head>
+
+        <body>
+            <!-- top start -->
+            <div class="top">
+                <div class="full">
+                    <div class="topL fl"><span class="f60">您好，欢迎来到3D旅游！<a href="#">[请登录]</a> <a href="#">[免费注册]</a></span></div>
+                    <div class="topR fr">
+                        <ul class="c55">
+                            <li class="card"><a href="#">我的账号</a><i class="ico0"></i></li>
+                            <li><a href="#">帮助中心</a></li>
+                            <li><a href="#">网站首页</a></li>
+                            <li class="card"><a href="#">网站导航</a><i class="ico0"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- top end --> 
+            <!-- logo start -->
+            <div class="logo full">
+                <div class="logoL fl"> <img src="images/logo.jpg" width="195" height="49" alt="3D旅游网" /> </div>
+                <div class="logoR fr">
+                    <div class="hour"><i></i><span>7×24小时服务热线</span></div>
+                    <div class="tel">4007-777-777</div>
+                </div>
+            </div>
+            <!-- logo end --> 
+            <!-- nav start -->
+            <div class="nav">
+                <div class="full">
+                    <ul>
+                        <li class="navline"></li>
+                        <li><a href="#" class="pngFix">首 页</a> </li>
+                        <li><a href="#" class="pngFix">目的地</a></li>
+                        <li><a href="#" class="pngFix">酒店</a></li>
+                        <li><a href="#" class="pngFix">机票</a></li>
+                        <li><a href="#" class="pngFix">团购</a></li>
+                        <li><a href="#" class="pngFix">旅行社</a></li>
+                        <li><a href="#" class="pngFix">3D商城</a></li>
+                        <li><a href="#" class="pngFix">旅行分享</a></li>
+                    </ul>
+                    <div class="navR fr"><span class="fl">旅游服务</span><i></i></div>
+                </div>
+            </div>
+            <!-- nav end --> 
+            <!--wrapstart-->
+            <div class="wrap">
+                <div class="clear8"></div>
+                <div class="position"> <a href="#">首页</a> &gt;  注册首页 </div>
+                <div class="clear"></div>
+
+                <div class="Afull">
+                    <div class="Atop">
+                        <!-- <a href="个人注册页面.html" target="_blank"> -->
+                            <div id="Amenu1" class="" onclick="javascript:window.location.href='个人注册页面.html'">
+                                <div class="regPerTitleL">
+                                    <div class="regPerImg"> </div>
+                                    <div class="regPerInfo">
+                                        <h1>个人注册</h1>
+                                        <dl>
+                                            <dd class="regPerInfobold"><strong>成为会员，管理自己的每个旅程：</strong></dd>
+                                            <dd>&gt;&gt;无限量上传相片、视频</dd>
+                                            <dd>&gt;&gt;按不同的景区管理游记</dd>
+                                            <dd>&gt;&gt;无限量上传相片、视频</dd>
+                                            <dd>&gt;&gt;按不同的景区管理游记</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- </a> -->
+                        <div class="Alipadding">
+
+                        </div>
+                        <div id="Amenu2" class="showbox">
+                            <div class="regConTitleL">
+                                <div class="regConImg"> </div>
+                                <div class="regConInfo">
+                                    <h1>商家注册</h1>
+                                    <dl>
+                                        <dd class="regConInfobold"><strong>成为商家会员后，您将可以：</strong></dd>
+                                        <dd>&gt;&gt;拥有自己专属的商家空间</dd>
+                                        <dd>&gt;&gt;零距离接触潜在客户</dd>
+                                        <dd>&gt;&gt;在景区主页发布您的信息</dd>
+                                        <dd>&gt;&gt;开店销售旅游产品</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="clear"></div>
+                    </div>
+
+                </div>
+                <div id="TB_overlayBG"></div>
+                <div class="regConMain" style="display:none">
+                    <div class="closediv">
+                        <span class="spinfo1">请选择相应商家类型，注册成为本站会员</span><span class="spinfo2"><a href="" class="closea">关闭</a></span>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="regConInner clearfix g_img_set">
+                        <ul class="clearfix">
+                            <li onmouseout="this.className=''" onmouseover="this.className='bord'" class="">
+                            <!--酒店旅注册-->
+                            <a class="regHotel" href="商家注册页面.html" target="_blank"></a>
+
+                            </li>
+                            <li onmouseout="this.className=''" onmouseover="this.className='bord'" class="">
+                            <!--商城商家注册-->
+                            <a class="regMall" href="商家注册页面.html" target="_blank"></a>
+                            </li>
+                            <li onmouseout="this.className=''" onmouseover="this.className='bord'" class="">
+                            <!--旅行社注册-->
+                            <a class="reglvxingshe" href="商家注册页面.html" target="_blank"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>	
+            </div>
+            <!--wrapend-->
+
+            <!--footerstart-->
+            <div class="clear"></div>
+            <div class="foot">
+                <div class="footA full">
+                    <div class="nav_f">
+                        <div class="footer"> <a href="#">关于芒果</a> | <a href="#">网站导航</a> | <a href="#">广告服务</a> | <a href="#">商务合作</a> | <a href="#">旅游度假资质</a> | <a href="#">芒果新闻</a> | <a href="#">法律声明</a> | <a href="#">网站问题反馈</a> | <a href="#">联系我们</a> | <a href="#">网站问题反馈</a> | <a href="#">联系我们</a> | <a href="#">友情链接</a> </div>
+                        <div class="copy">copyright &copy; 2012-2015 rmsi . All 芒果网</div>
+                        <div> <a href="#"><img src="pic/hezuo_05.jpg" width="117" height="48" /></a> <a href="#"><img src="pic/hezuo_08.jpg" width="117" height="48" /></a> <a href="#"><img src="pic/hezuo_09.jpg" width="117" height="48" /></a> <a href="#"><img src="pic/hezuo_10.jpg" width="117" height="48" /></a> <a href="#"><img src="pic/hezuo_11.jpg" width="117" height="48" /></a> <a href="#"><img src="pic/hezuo_13.jpg" width="117" height="48" /></a> <a href="#"><img src="pic/hezuo_14.jpg" width="117" height="48" /></a> </div>
+                    </div>
+                </div>
+            </div>
+            <!--footerend-->
+        </body>
+    </html>
+
+

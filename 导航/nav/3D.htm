@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html autopagermatchedrules="1" xmlns="http://www.w3.org/1999/xhtml"><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>3D旅游网--酒店首页</title>
+        <link rel="stylesheet" type="text/css" href="3D/base.css">
+        <link rel="stylesheet" type="text/css" href="3D/hotel.css">
+        <script type="text/javascript" src="3D/jquery.js"></script>
+        <script type="text/javascript" src="3D/hotel.js"></script>
+        <script type="text/javascript" src="3D/base.js"></script>
+        <script type="text/javascript" src="3D/loopedslider.js"></script>
+
+        <!--[if IE 6]>
+        <script type="text/javascript" src="/template/default/js/DD_belatedPNG.js"></script>
+        <script type="text/javascript">
+
+            $(function(){
+        DD_belatedPNG.fix(".c_3d_ico");
+        })	
+    </script>
+
+    <![endif]-->
+
+    <link type="text/css" rel="stylesheet" href="3D/WdatePicker.css"></head>
+
+<body>
+
+    <!-- top start -->
+    <script type="text/javascript">
+        $(function(){
+            //顶部栏目我的账号！
+            $("#mycard_li,#layer_mycard").hover(
+                function(){
+                    $("#mycard_li").addClass("on");
+                    $("#mycard_li i").addClass("ico01");
+                    $("#layer_mycard").show();
+                },
+                function(){
+                    $("#mycard_li").removeClass("on");
+                    $("#mycard_li i").removeClass("ico01");
+                    $("#layer_mycard").hide();
+                }
+                )	 
+                $("#dh_li,#layer_dh").hover(
+                    function(){
+                        $("#dh_li").addClass("on");
+                        $("#dh_li i").addClass("ico01");
+                        $("#layer_dh").show();
+                    },
+                    function(){
+                        $("#dh_li").removeClass("on");
+                        $("#dh_li i").removeClass("ico01");
+                        $("#layer_dh").hide();
+                    }
+                    )
+                    //旗下网站
+                    $("#website_on").hover(
+                        function(){
+                            $("#logoA").addClass("logoA_on");
+                            $("#website").toggle();
+                        },
+                        function(){
+
+                            $("#website").slideToggle(10,function(){
+                                $("#logoA").removeClass("logoA_on");
+                            });
+                        }
+                        )
+                        //旅游服务
+                        $("#navR_on").hover(
+                            function(){
+                                $("#navR_bh").toggle();
+                            },
+                            function(){
+
+                                $("#navR_bh").toggle();
+                            }
+                            )
+
+
+                            })
+
+                        function Showmenu(a,b){
+                            var i;
+                            for (i = 1; i <= b; i++) {
+                                if (i == a) {
+                                    document.getElementById("menu" + i).style.display = "block";
+                                    document.getElementById("menuli" + i).className = "on"; 
+                                }
+                                else {
+                                    document.getElementById("menu" + i).style.display = "none";
+                                }
+                            }
+                        }
+                        function hidemenu(b){
+                            document.getElementById("menu" + b).style.display = "none";
+                            document.getElementById("menuli" + b).className = ""; 
+                        }
+
+        </script>
+                    <div class="top">
+                        <div class="full">
+                            <div class="topL fl"><span class="f60">
+                                    您好，欢迎来到3D旅游！<a href="http://uc.umyou.com/login/" target="_blank">[ 请登录 ]</a><a href="http://uc.umyou.com/register/">[ 免费注册 ]</a>	</span></div>
+                            <div class="topR fr">
+                                <ul class="c55">
+                                    <li class="card" id="mycard_li"><a href="http://uc.umyou.com/">我的账号</a><i class="ico0"></i></li>
+                                    <li><a href="#">帮助中心</a></li>
+                                    <li><a href="#">网站首页</a></li>
+                                    <li class="card" id="dh_li"><a href="#">网站导航</a><i class="ico0"></i>
+                                    </li>
+                                </ul>
+                                <!-- 网站导航  展开层 -->
+                                <div class="layer_dh" id="layer_dh">
+                                    <dl>
+                                        <dt>旅游产品</dt>
+                                        <dd style="height:45px">
+                                        <a href="http://mall.umyou.com/">3D商城</a>
+                                        <a href="http://lxs.umyou.com/">旅游度假</a>
+                                        <a href="">酒店预订</a>
+                                        <a href="#">机票预订</a>  
+                                        </dd>
+
+                                        <dt>旅游指南</dt>
+                                        <dd style="height:45px">
+                                        <a href="http://d.umyou.com/jingdian/">旅游景点</a>
+                                        <a href="#">美食小吃</a>
+                                        <a href="#">旅游购物</a>
+                                        <a href="#">休闲娱乐</a> 
+                                        </dd>            
+                                        <dt>热门栏目</dt>
+                                        <dd style="height:65px; border:0">
+                                        <a href="http://u.umyou.com/youji-index-1.html">游记</a>
+                                        <a href="http://u.umyou.com/gonglue-index-1.html">攻略</a>
+                                        <a href="http://d.umyou.com/ditu/">地图</a>
+                                        <a href="http://u.umyou.com/news/">资讯</a>   
+                                        <a href="http://d.umyou.com/comment/">点评</a>
+                                        <a href="http://u.umyou.com/ask/">问答</a>
+                                        </dd>            
+                                    </dl>
+
+                                </div>
+                                <!-- 我的账号  展开层 --> 
+                                <div class="layer_mycard" id="layer_mycard">
+                                    <ul>
+                                        <li><a href="#">我的订单</a></li>
+                                        <li><a href="#">我的收藏</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- top end -->
+
+                    <!-- logo start -->
+                    <div class="logo full">
+                        <div class="logoL fl"> <a href="http://www.umyou.com/"><img src="3D/logo.jpg" alt="3D旅游网" width="195" height="49"></a>
+                        </div>
+                        <div class="logoA" id="logoA">
+                            <div class="logoA_1" id="website_on">
+                                <span>旗下网站</span>
+                                <div class="website" id="website">
+                                    <div class="website_th">
+                                        <a href="#">3D大学网</a>
+                                        <a href="#">3D房产网</a>
+                                        <a href="#">3D传媒</a>
+                                        <a href="#">旅游投资网</a>
+                                    </div>
+                                    <div class="website_bh"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="logoB">客户端</div>
+
+
+                        <div class="logoR fl">
+                            <div class="hour"><i></i><span>7×24小时服务热线</span></div>
+                            <div class="tel">4006-059-619</div>
+
+                        </div> 
+                    </div>
+                    <!-- logo end -->
+
+                    <!-- nav start -->
+                    <div class="nav">
+                        <div class="full">
+                            <div class="navL_on">
+                                <ul>
+                                    <li class="navline"></li>
+                                    <li><a href="http://www.umyou.com/">首 页</a> </li>
+                                    <li onmouseover="Showmenu(1,2);" onmouseout="hidemenu(1);"><a href="http://d.umyou.com/" id="menuli1">目的地</a>
+                                    <div class="navL_mdd" id="menu1">
+                                        <a href="http://d.umyou.com/jingdian/">景点</a>
+                                        <a href="http://d.umyou.com/gonglue/">攻略</a>
+                                        <a href="http://d.umyou.com/ask/">问答</a>
+                                        <a href="http://d.umyou.com/ditu/">地图</a>
+                                        <a href="http://d.umyou.com/tianqi/">天气</a>
+                                        <a href="http://d.umyou.com/news/">资讯</a>               
+                                    </div>          
+                                    </li>
+                                    <li><a href="" class="on">酒店</a>
+
+
+                                    </li>
+                                    <li><a href="#">机票</a></li>
+                                    <li><a href="http://tuan.umyou.com/">团购</a></li>
+                                    <li><a href="http://lxs.umyou.com/">旅行社</a></li>
+                                    <li><a href="http://mall.umyou.com/" target="_blank">3D商城</a></li>
+                                    <li onmouseover="Showmenu(2,2);" onmouseout="hidemenu(2);"><a href="http://u.umyou.com/" id="menuli2">旅行分享</a>
+
+                                    <div class="navL_mdd" id="menu2">
+                                        <a href="http://u.umyou.com/photo-index-1.html">照片</a>
+                                        <a href="http://u.umyou.com/youji-index-1.html">游记</a>
+                                        <a href="http://u.umyou.com/gonglue-index-1.html">攻略</a>
+                                        <a href="http://u.umyou.com/group-index-1.html">群组</a>
+                                        <a href="http://d.umyou.com/comment/">点评</a>
+                                        <a href="http://d.umyou.com/ask/">问答</a>               
+                                    </div>           
+                                    </li>
+                                </ul>
+                            </div>
+							
+
+                            <div class="navR fr" id="navR_on">
+
+                                <div><span class="fl">旅游服务</span><i></i></div>
+                                <div class="navR_bh" id="navR_bh">
+                                    <h6></h6>
+                                    <div class="navR_th">
+                                        <a href="http://uc.umyou.com/">个人中心</a>
+                                        <a href="#">我的订单</a>
+                                        <a href="#">我的收藏</a>
+                                        <a href="#">我的好友</a>
+                                    </div>
+                                    <div class="navR_bd"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- nav end -->
+                    <div class="clear10"></div>
+                    <!-- main start -->
+                    
+                 
+                    
+                    <!-- foot start -->
+                    <div class="foot">
+                        <div class="footA full">
+                            <div class="nav_f">
+                                <div class="footer">
+                                    <a href="http://www.umyou.com/company_news/" target="_blank">公司新闻</a> | 
+                                    <a href="http://www.umyou.com/aboutus/wabout" target="_blank">关于我们</a> | 
+                                    <a href="http://www.umyou.com/aboutus/wcopyright" target="_blank">法律声明</a> | 
+                                    <a href="http://www.umyou.com/aboutus/wcontact" target="_blank">联系我们</a> | 
+                                    <a href="http://www.umyou.com/aboutus/wbussiness" target="_blank">广告业务</a> | 
+                                    <a href="http://www.umyou.com/aboutus/whelps" target="_blank">帮助中心</a> | 
+                                    <a href="http://www.umyou.com/sitemap/" target="_blank">网站地图</a> | 
+                                    <a href="http://www.umyou.com/links/" target="_blank">友情链接</a> | 
+                                    <a href="http://www.umyou.com/ask_fankui/" target="_blank">问题反馈</a> | 
+                                    <a href="http://www.umyou.com/aboutus/wjob" target="_blank">诚聘英才</a>
+                                </div>
+                                <div class="copy">Copyright&nbsp;&nbsp;2012&nbsp;&nbsp;3D旅游网&nbsp;&nbsp;3dlyw.com</div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- foot end -->
+
+
+</div></div></div></div></body></html>

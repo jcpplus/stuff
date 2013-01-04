@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+.introduction{ width:958px; padding-bottom:20px; _padding-bottom:4px; border-width:2px 1px 1px; border-style:solid; border-color:#71B3CF #D1E1F1 #D1E1F1;background:url(../images/inturdution_bg.gif) no-repeat left top; overflow:hidden;}
+.introduction_title{ height:54px; width:921px; border-bottom:1px dashed #d8d8d8; margin-left:17px; margin-bottom:16px; line-height:53px;}
+.introduction_title h2{ float:left; font-family:"microsoft yahei"; font-size:24px; font-weight:bold; color:#046a97;}
+.introduction_title i{ float:left; background:url(../images/icon.png) no-repeat scroll 0 0; width:20px; height:15px; display:block; margin:21px 20px 0 5px}
+.introduction_title span{ display:block; font-size:12px; color:#333; font-family:"宋体"; position:relative; top:2px}
+.uni_img_box{ margin-left:20px; display:inline; zoom:1; width: 296px;}
+.uni_img{ padding:3px; border:1px solid #d8d8d8}
+.uni_img{ width:288px; height:200px}
+.img_share{ margin-top:10px; line-height:23px; height:23px;}
+.img_share .share_sch{ display:inline-block; color:#fff; width:90px; height:20px; background-color:#3972bf; border:1px solid #1753a9; line-height:19px; text-align:center;float: left; }
+.img_share .share_sch:hover { text-decoration:none; color:#fff}
+
+.uni_detail{ margin-left:25px; width:595px;}
+.uni_intro{ line-height:20px}
+.uni_intro p.p2{ text-indent:2em}
+.dynamic_title{ height:31px; line-height:31px; border-bottom:1px solid #d8d8d8; margin:5px 0 7px;}
+.dynamic_title h2{ float:left; font-family:"microsoft yahei"; font-size:14px; font-weight:bold;}
+.dynamic_title a{ float:right}
+.uni_dynamic li{ width:596px; float:left; line-height:25px;}
+.uni_dynamic li i{ float:left; background:url(../images/icon.png) no-repeat scroll 0 -170px; width:2px; height:2px; display:block; overflow:hidden; margin:11px 13px 0 3px}
+.uni_dynamic li a{ float:left;}
+.uni_dynamic li span{ float:right}
+
+.feilei{ width:944px; height:69px; border:1px solid #d2e1f1; margin:15px 0; line-height:31px; padding:9px 0 0 14px}
+.feilei dl.dl1{ width:490px; float:left}
+.feilei dl.dl2{ width:420px; float:left; margin-left:30px}
+.feilei dt{ font-weight:bold; float:left}
+.feilei dd{ color:#d8d8d8;}
+.feilei dd a{ padding:0 8px 0 7px}
+.adimg_list{ float:left; margin-left:11px}
+.ad_box{ display:inline-block}
+
+.recruit_detail{ clear:both; margin-top:15px; width:960px; display:inline-block}
+.recruit_L_title{ height:33px; width:711px; background:url(../images/top_bg.gif) repeat-x scroll left bottom; padding-left:18px}
+.recruit_L_title li{ float:left; line-height:33px; width:87px; text-align:center; margin-right:5px; background:url(../images/icon.gif) no-repeat -90px -145px; height:33px}
+.recruit_L_title li a{ font-size:14px; color:#454545; display:block; cursor:pointer}
+.recruit_L_title li.on{ background:url(../images/icon.gif) no-repeat scroll -90px -40px; width:87px; height:33px; font-weight:bold}
+.table_title{ width:727px; height:34px; background-color:#f3f3f3; border:1px solid #d8d8d8; border-bottom:none; border-top:none; line-height:34px}
+.table_title span{ float:left; font-weight:bold; margin-left:10px}
+.table_title select{ float:right; margin-right:20px; margin-top:7px}
+table{ border:1px solid #d8d8d8}
+tr, td{border:1px solid #d8d8d8; line-height:25px; text-align:center; color:#7d7d7d}
+tr.firstline{ height:35px; line-height:35px; font-weight:bold;}
+tr.seemore{ height:63px;}
+td.years{ width:78px}
+td.highest{ width:123px}
+td.average{ width:107px}
+td.reach{ width:78px}
+td.number{ width:128px}
+td.dalei{ width:109px}
+td.xiaolei{ width:176px}
+td.vocational{ width:218px}
+td.average2{ width:82px}
+td.highest2{ width:82px}
+tr.seemore a{ float:left; margin-left:288px; width:139px; height:29px; line-height:29px; color:#fff; background-color:#3972bf; border:1px solid #1753a9; line-height:29px;}
+tr.seemore a:hover{ text-decoration:none; color:#fff}
+
+.recruit_R{ width:209px; height:788px; border:1px solid #d8d8d8}
+.recruit_R_title{ background:url(../images/bg.gif) repeat-x scroll left bottom; height:29px; border-bottom:1px solid #d8d8d8; line-height:29px; font-weight:bold; padding-left:11px}
+.uni_position{ padding-top:4px; padding-left:10px; line-height:24px; border-bottom:1px solid #d8d8d8}
+.uni_position ul{ display:inline-block}
+.uni_position li{ line-height:24px; width:192px; float:left; font-family:"宋体";}
+.uni_position li.uni_map{ margin-top:6px;}
+.rank_pic{ float:left; background:url(../images/icon.png) no-repeat scroll -50px 0; width:19px; height:289px; margin:11px 15px 0 10px; display:inline}
+.rank_detail{ float:left; width:150px; margin-top:4px}
+.rank_detail li{ width:149px; float:left; line-height:30px}
+.rank_detail li a{ float:left; color:#454545}
+.rank_detail li span{ float:right; font-family:"宋体"; color:#999}
+
+.freestatement{ width:939px; height:96px; border:1px solid #d2e1f1; margin-top:15px; padding-left:19px; color:#666; line-height:18px; font-family:"宋体"}
+.freestatement span{ font-weight:bold; margin-top:11px; display:block}
+.freestatement p{ text-indent:2em; width:924px;}
+
+.yuanxiaogaikuang{ height:738px; width:709px; border:1px solid #d8d8d8; border-top:none; padding:18px 0 0 18px; font-size:14px; overflow-y:scroll}
+.yuanxiaogaikuang p{ width:675px; line-height:24px; text-indent:2em} 
+.yuanxiaogaikuang span{ display:inline-block; font-weight:bold}
+
+
+
+/* more */
+.introduction_title2{ width:940px; padding-left:18px; line-height:53px; border-width:2px 1px 1px; border-style:solid; border-color:#71B3CF #D1E1F1 #D1E1F1;background:url(../images/inturdution_bg.gif) no-repeat left top; overflow:hidden;}
+.introduction_title2 h2{ float:left; font-family:"microsoft yahei"; font-size:24px; font-weight:bold; color:#046a97;}
+.introduction_title2 i{ float:left; background:url(../images/icon.png) no-repeat scroll 0 0; width:20px; height:15px; display:block; margin:21px 20px 0 5px}
+.introduction_title2 span{ display:block; font-size:12px; color:#333; font-family:"宋体"; position:relative; top:2px}
+
+.charge{ width:728px; height:787px; border:1px solid #d2e1f1}
+.charge_title{ height:45px; width:693px; line-height:45px; border-bottom:1px dashed #d8d8d8; font-size:16px; font-family:"microsoft yahei"; font-weight:bold; margin-left:16px}
+.charge_detail{ padding-left:20px; font-size:14px; font-family:"宋体"; line-height:24px; margin-top:15px}
+.charge_detail dt{ font-weight:bold}
+.charge_detail dd{ margin-left:45px; width:647px}
+
+
+

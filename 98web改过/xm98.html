@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="style/xm98.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.KinSlideshow-1.1.js"></script>
+<script type="text/javascript">
+	$(function(){
+		
+				//顶部栏目
+  $("#mycard_li,#layer_mycard").hover(
+  function(){
+	  $("#mycard_li").addClass("on");
+	  $("#mycard_li i").addClass("ico01");
+	  $("#layer_mycard").show();
+	  },
+  function(){
+	  $("#mycard_li").removeClass("on");
+	  $("#mycard_li i").removeClass("ico01");
+	  $("#layer_mycard").hide();
+	  }
+  )	 
+  $("#dh_li,#layer_dh").hover(
+  function(){
+	  $("#dh_li").addClass("on");
+	  $("#dh_li i").addClass("ico01");
+	  $("#layer_dh").show();
+	  },
+  function(){
+	  $("#dh_li").removeClass("on");
+	  $("#dh_li i").removeClass("ico01");
+	  $("#layer_dh").hide();
+	  }
+  )
+  
+  $(".address_list").hover(
+      function(){
+		   $(this).addClass("hover")
+	 },
+	 function(){
+		   $(this).removeClass("hover")
+	 }
+  )
+	
+
+		
+		
+		
+		
+		/*边框颜色*/
+		$(".show_list dl dt").hover(
+		function(){
+			$(this).addClass("on_curr");
+		},function(){
+			$(this).removeClass("on_curr");
+		});
+		/*灰色透明宽度*/
+        $(".place_bg").width($(".place_info").width());	
+		/*轮播 焦点图*/
+		$("#KinSlideshow").KinSlideshow({
+		//	moveStyle:"down",
+			intervalTime:3,
+			mouseEvent:"mouseover",
+			moveStyle:"up",
+			isHasTitleBar:true,
+			isHasTitleFont:true,
+			btn:{btn_bgColor:"#FFFFFF",btn_bgHoverColor:"#bd0905",btn_fontColor:"#000000",
+                     btn_fontHoverColor:"#FFFFFF",btn_borderColor:"#cccccc",
+                     btn_borderHoverColor:"#bd0905",btn_borderWidth:1}
+		});
+	})
+</script>
+<!--[if IE 6]>
+
+<![endif]-->
+<title>第十六届中国国际投资贸易洽谈会</title>
+</head>
+
+<body>
+<!-- top start -->
+<div class="top">
+   <div class="full">
+         <div class="topL fl"><span class="f60">您好，欢迎来到3D旅游！<a href="#">[请登录]</a>&nbsp;&nbsp; <a href="#">[免费注册]</a></span></div>
+    <div class="topR fr">
+      <ul class="c55">
+        <li id="mycard_li" class="card"><a href="http://uc.3dlyw.com/">我的账号</a><i class="ico0"></i></li>
+        <li><a href="http://www.3dlyw.com/aboutus/wabout/">帮助中心</a></li>
+        <li><a href="http://www.3dlyw.com/">网站首页</a></li>
+        <li id="dh_li" class="card"><a href="#">网站导航</a><i class="ico0"></i> </li>
+      </ul>
+      <!-- 网站导航  展开层 -->
+      <div id="layer_dh" class="layer_dh" style="display: none;">
+        <dl>
+          <dt>旅游产品</dt>
+          <dd style="height:45px"> <a href="http://mall.3dlyw.com/">3D商城</a> <a href="http://lxs.3dlyw.com/">旅游度假</a> <a href="http://hotel.3dlyw.com/">酒店预订</a> <a href="http://jipiao.3dlyw.com/">机票预订</a> </dd>
+          <dt>旅游指南</dt>
+          <dd style="height:45px"> <a href="/jingdian/">旅游景点</a> <a href="#">美食小吃</a> <a href="#">旅游购物</a> <a href="#">休闲娱乐</a> </dd>
+          <dt>热门栏目</dt>
+          <dd style="height:65px; border:0"> <a href="http://u.3dlyw.com/youji-index-1.html">游记</a> <a href="http://u.3dlyw.com/gonglue-index-1.html">攻略</a> <a href="/ditu/">地图</a> <a href="/news/">资讯</a> <a href="/comment/">点评</a> <a href="/ask/">问答</a> </dd>
+        </dl>
+      </div>
+      <!-- 我的账号  展开层 -->
+      <div id="layer_mycard" class="layer_mycard" style="display: none;">
+        <ul>
+          <li><a href="http://uc.3dlyw.com/member/mall/">我的订单</a></li>
+          <li><a href="http://uc.3dlyw.com/member/collect/">我的收藏</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+</div>
+<!-- top end -->
+
+<!-- logo start -->
+<div class="head">
+  <div class="full" >
+    <img src="images/head.jpg" alt="第十六届中国国际投资贸易洽谈会" width="980" height="384" usemap="#Map" border="0" style="display:block" />
+    <map name="Map" id="Map">
+      <area shape="rect" coords="32,178,259,257" href="/" />
+    </map>
+  </div>
+  
+  <div class="full content_top ">
+	<div class="content_L">
+		<div class="c_lunbo">
+			<div id="KinSlideshow" > 
+				<a href=""><img width="636px" height="315px" src="pic/95.gif" alt="skskkss"></a> 
+				<a href=""><img width="636px" height="315px" src="pic/96.gif"></a> 
+				<a href=""><img width="636px" height="315px" src="pic/97.gif"></a> 
+				<a href=""><img width="636px" height="315px" src="pic/98.gif"></a> 
+				<a href=""><img width="636px" height="315px" src="pic/99.gif"></a> 
+			</div>
+		</div>
+		<!--div class="c_3dmap">
+			<div class="mapIcon pngfix"></div>
+			<img src="pic/xm98_3dmap1.3.gif" alt="3D景区地图导览"/>
+		</div-->
+		<div class="c_3dmap2">
+
+			<a href="http://d.3dlyw.com/ditusearch/" target="_blank"alt="3D景区地图导览" title="3D景区地图导览"><img src="pic/xm98_3dmap1.3.gif" alt="3D景区地图导览"/></a>
+		</div>
+	</div>
+	<div class="content_R">
+		<div class="c_newslist">
+			<div class="sum_news">
+				<h2><a href="#">第三届闽商论坛厦门论道</a></h2>
+				<p>第三届闽商论坛，将于9月7日开讲。届时，来自全球的知名闽商及国内外知名学者将齐聚鹭岛，一同探讨未来十年闽商的发展布局。［<a href="#.">详细</a>］</p>
+			</div>
+			<div class="sum_news">
+				<h2><a href="#">知名闽商曹德旺现身闽商论坛</a></h2>
+				<p>第三届闽商论坛，将于9月7日开讲。届时，来自全球的知名闽商及国内外知名学者将齐聚鹭岛，一同探讨未来十年闽商的发展布局。［<a href="#">详细</a>］</p>
+			</div>
+			<div class="xmlist">
+				<ul>
+					<li><a href="#">第三届闽商论坛 魏建国将做主旨演讲</a></li>
+					<li><a href="#">第三届闽商论坛 知名闽商曹德旺将做主题演讲</a></li>
+					<li><a href="#">匹克集团董事长许景南现身闽商论坛做主题演讲坛做主题演讲</a></li>
+					<li><a href="#">第三届闽商论坛 魏建国将做主旨演讲</a></li>
+					<li><a href="#">第三届闽商论坛 魏建国将做主旨演讲</a></li>
+					<li><a href="#">第三届闽商论坛 魏建国将做主旨演讲</a></li>
+					<li><a href="#">第三届闽商论坛 魏建国将做主旨演讲</a></li>
+					<li><a href="#">第三届闽商论坛 魏建国将做主旨演讲</a></li>
+					<li><a href="#">第三届闽商论坛 魏建国将做主旨演讲</a></li>
+					<li><a href="#">第三届闽商论坛 魏建国将做主旨演讲</a></li>
+					<li><a href="#">第三届闽商论坛 魏建国将做主旨演讲</a></li>
+					<li><a href="#">第三届闽商论坛 魏建国将做主旨演讲</a></li>
+					<li><a href="#">第三届闽商论坛 魏建国将做主旨演讲</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>
+</div>
+<!-- logo end -->
+
+<div class="banners full">
+<a href="http://www.chinafair.org.cn/china/index/index.aspx" target="_blank" alt="厦门98投洽会"  title="厦门98投洽会" ><img src="pic/xm_bannerads.gif" alt="厦门98投洽会"/></a>
+</div>
+
+<div class="big_main">
+	<div class="jqs_title1"></div>
+<div class="main_cont">
+	<div class="show_list">
+		<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic">
+			<a href="http://d.3dlyw.com/quanjing/gulangyu/" target="_blank">
+				<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-18/1342579738_mid.jpg" width="280" height="210" />
+			</a>
+			</div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/gulangyu/" target="_blank">鼓浪屿(112场景)</a></dd>
+      </dl>
+	  	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/xiamenhaidishijie/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-18/1342603935_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/xiamenhaidishijie/" target="_blank">厦门海底世界(32场景)</a></dd>
+      </dl>
+	  	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/nanputuosi/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-18/1342583278_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/nanputuosi/" target="_blank">南普陀寺(8场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/lianhualuohanshan/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/08-15/1344994720_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/lianhualuohanshan/" target="_blank">莲花罗汉山(44场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/xiamenyuanlinbolanyuan/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-20/1342766403_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/xiamenyuanlinbolanyuan/" target="_blank">厦门园林博览苑(108场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/hulishanpaotai/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-18/1342594195_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/hulishanpaotai/" target="_blank">胡里山炮台(12场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/xiamendaxue/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-18/1342599108_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/xiamendaxue/" target="_blank">厦门大学(19场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/xiamenhuandaolu/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-19/1342683792_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/xiamenhuandaolu/" target="_blank">厦门环岛路(38场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/aoyuan/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-19/1342681046_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/aoyuan/" target="_blank">鳌园(39场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/jingzhouleyuan/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-18/1342601231_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/jingzhouleyuan/" target="_blank">景州乐园(16场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/tonganyingshicheng/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-21/1342860506_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/tonganyingshicheng/" target="_blank">同安影视城(18场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/nanputuosi/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-19/1342669584_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/nanputuosi/" target="_blank">海沧大桥(44场景)</a></dd>
+      </dl>
+	</div>
+</div>
+</div>
+<div class="big_main">
+	<div class="jqs_title2">	</div>
+<div class="main_cont">
+	<div class="show_list">
+			<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/riguangyan/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-18/1342596391_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/riguangyan/" target="_blank">日光岩(112场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/longzhouchi/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-20/1342750680_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/longzhouchi/" target="_blank">龙舟池(39场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/fantiansi/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/07-23/1343010140_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/fantiansi/" target="_blank">梵天寺(28场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/zhonglungongyuan/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/08-01/1343803056_mid.jpeg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/zhonglungongyuan/" target="_blank">忠仑公园(34场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/xiamenhuiheshiwenhuayuan/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/09-04/1346751007_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/xiamenhuiheshiwenhuayuan/" target="_blank">厦门惠和石文化园(30场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/tonganyeshangu/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/09-04/1346751944_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/tonganyeshangu/" target="_blank">同安野山谷(25场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/haicangdongwuyuan/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/09-05/1346813334_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/haicangdongwuyuan/" target="_blank">海沧动物园(38场景)</a></dd>
+      </dl>
+	<dl>
+        <dt>
+          <div class="list_pic">
+            <div class="show_pic"><a href="http://d.3dlyw.com/quanjing/haicangcijidonggong/" target="_blank">
+			<img  title="" src="http://img.3dlyw.com/jingqu/2012/09-05/1346810928_mid.jpg" width="280" height="210" /></a></div>
+            <div class="place_info"><a href="http://d.3dlyw.com/xiamen/" target="_blank">厦门</a></div>
+            <div class="place_bg"></div>
+          </div>
+        </dt>
+        <dd><a href="http://d.3dlyw.com/quanjing/haicangcijidonggong/" target="_blank">海沧慈济东宫(23场景)</a></dd>
+      </dl>
+	</div>
+</div>
+</div>
+<div class="footA full" >
+<div class="nav_f">
+                 
+                 <div class="footer">
+                   <a href="/company_news/" target="_blank">公司新闻</a> | 
+                   <a href="/aboutus/wabout/" target="_blank">关于我们</a> | 
+                   <a href="/aboutus/wcopyright/" target="_blank">法律声明</a> | 
+                   <a href="/aboutus/wcontact/" target="_blank">联系我们</a> | 
+                   <a href="/aboutus/wbussiness/" target="_blank">广告业务</a> | 
+                   <a href="/aboutus/whelps/" target="_blank">帮助中心</a> | 
+                   <a href="/sitemap/" target="_blank">网站地图</a> | 
+                   <a href="/links/" target="_blank">友情链接</a> | 
+                   <a href="/ask_fankui/" target="_blank">问题反馈</a> | 
+                   <a href="/aboutus/wjob/" target="_blank">诚聘英才</a> | 
+                   <a href="http://www.3dlyw.com/huishang/index.html" target="_blank">会员商户窗口</a> | 
+                   <a href="http://www2.3dlyw.com/" target="_blank">旧版入口</a>
+                 </div>
+                 <div class="copy">Copyright&nbsp;&nbsp;2012&nbsp;&nbsp;3D旅游网&nbsp;&nbsp;3dlyw.com</div>
+         </div>
+         
+        </div> 
+</body>
+</html>
+

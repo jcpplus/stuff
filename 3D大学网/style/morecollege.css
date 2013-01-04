@@ -1,0 +1,211 @@
+/*本css文件定义以下页面的样式
+  3D大学库页面
+  3D大学库更多页面
+  文章列表页面
+  文章列表—more页面
+  高校人气排行榜页面
+  
+*/
+/*3D大学库页面*/
+.aside { float:left;overflow:hidden;height:1%;}
+.aside .helpInfo { background:url(../images/icon_morecollage_select.png) no-repeat -1px -323px; height:122px;display:block;width:274px; position:relative; margin-bottom:15px;}
+.helpInfo a {display:block;width:113px; height:30px; position:relative; top:80px; right:-151px; background:url(../images/icon_morecollage_select.png) no-repeat -280px -412px;}
+
+.aside .aside_search { background:url(../images/icon_morecollage_select.png) no-repeat -1px -261px; height:52px; width:274px; overflow:hidden; margin-bottom:15px; }
+.aside_search .search_box { border:1px #ccc solid; float:left; background:#FFF; overflow:hidden;width:240px; margin:13px 13px 13px 14px ; display:inline;padding:0;height: 24px;}
+.search_box i.search_boxIcon {display:block; width:15px; height:16px; background:url(../images/edu_index1.gif) no-repeat -88px -95px; float:left; margin:4px;}
+.search_box input.input_txt {width:151px;_width:144px; display:block; float:left; height:24px; line-height:24px; color:#CCC;}
+.search_box input.input_btn {width:66px;height:24px; background:#3972bf; color:#FFF; font:bold 14px/24px "\5B8B\4F53"; text-align:center; cursor:pointer;}
+/*高校人气榜*/
+.hotList {float:left; overflow:hidden; border:1px #ccc solid;padding-bottom:4px; }
+.hotList h2 {display:block;width:262px; height:30px; background:url(../images/more_hotlist_bg.png) repeat-x; font:bold 14px/31px "微软雅黑"; border-bottom:1px #ccc solid; padding:0 0 0 10px;}
+.hotList ul {width:272px; background:url(../images/edu_index1.gif) no-repeat 7px -369px;}
+.hotList ul li{ height:30px; line-height:30px; color:#454545; padding:0 10px 0 36px;}
+.hotList ul li a {color:#454545;}
+.hotList ul li span {float:right; color:#989895;}
+
+/*flash 地图*/
+.flashMap {float:right; background:url(../pic/3D_flashMap.jpg) no-repeat; width:664px; height:481px;}
+
+/*全国普通高校名单*/
+.collageListbar { display:inline-block; width:960px; margin:10px 0; height:42px; line-height:42px; border:1px #d2e1f1 solid; background:#FFF;}
+.collageListbar h3 {background:url(../images/icon_morecollage_select.png) no-repeat -281px -362px; width:120px; float:left; font:bold 12px/42px "微软雅黑";padding:0 0 0 10px; height:42px;}
+.collageListbar span {width:828px; float:left; overflow:hidden; height:40px;}
+.collageListbar span a {color:#2958ab; padding:0 4px;*padding:0 3px;font:12px/43px "\5B8B\4F53";}
+.collageListbar span a:hover {color:#f60;}
+
+/*地区列表显示 地区高校列表*/
+.mainListContent {}
+.listContent { background:url(../images/more_contentList.png) repeat-x; height:37px; border:1px #d2e1f1 solid;
+		border-right:none;border-bottom:none;}
+.listContent li { float:left; background:url(../images/m_c_nav_bg1.png) no-repeat 0 -4px; height:37px;}
+.listContent li a{height:36px; display:block; width:128px; text-align:center; line-height:36px; font:18px/36px "微软雅黑"; outline:none;}
+/*.listContent li a:hover , .listContent_on {background:url(../images/icon_morecollage_select.png) no-repeat -279px -305px; color:#046a97;}*/
+
+/*.listResult {width:960px; overflow:hidden;}
+.listResult li {float:left;height:140px;display:block; padding:10px 8px;}
+.listResult li a {color:#454545;}
+.listResult li a:hover {color:#2958ab;}
+.listResult li span {display:block;text-align:center;width:172px;padding:8px 0;}*/
+
+/*listResult dl dd dt*/
+.tab_conbox .tab_con dl {overflow:hidden; display:block;float:left; padding:10px 8px;}
+.tab_conbox .tab_con dl dd{overflow:hidden; display:block;}
+.tab_conbox .tab_con dl dt span {text-align:center; padding:3px 0; display:block; }
+.tab_conbox .tab_con dl dd a {text-align:center; display:block;}
+.tab_conbox .tab_con dl dt a {color:#454545;}
+.tab_conbox .tab_con dl dt a:hover {color:#f60;}
+.tabs .thistab,.tabs .thistab a:hover { background:url(../images/m_c_nav_bg1.png) no-repeat 0 -45px; color:#046a97;}
+
+
+.contentMore {  width:960px; overflow:hidden;}
+.contentMore span {float:right; height:20px;}
+.contentMore a { height:18px;display:block; background:url(../images/icon_morecollage_select.png) no-repeat -286px -263px; overflow:hidden; width:170px; text-align:right; padding-right:6px;}
+
+
+
+/*大学库 更多 页面 3D大学库_more*/
+.moreschool_select {overflow:hidden;float:left;border:1px #d2e1f1 solid;border-top:2px #71b3cf solid;padding: 0 0 10px 0; margin: 0 0 20px 0;}
+.moreselect_title { background:url(../images/morecollage_select_bg.png) repeat-x ; height:35px; display:block;width:960px; padding:10px 0 0 0;}
+.moreselect_title span {float:right;display:block;padding:0 30px 0 0; height:20px; line-height:20px;}
+.moreselect_title h2 {color:#046a97; padding: 0 0 0 20px;font:bold 16px/16px "微软雅黑"; }
+
+.select_area {float:left;width:960px;}
+.select_area dl {display:inline-block; padding: 0px 10px; border-bottom:1px dashed #ccc;width:905px; line-height:35px; margin: 0 0 0 15px; color:#454545;}
+.select_area dt {float:left; background:url(../images/icon_morecollage_select.png) no-repeat 4px 12px;padding:0 0 0 15px; width:80px; font:bold 12px/35px "\5B8B\4F53"; }
+.select_area dd {overflow:hidden; float:left;width:800px;*zoom:1;}
+.select_area dd a {padding:0 5px; font-size:12px;color:#454545; margin: 1px 6px;}
+.select_area dd a:hover, .select_area dd a.cur_on {background: #2958ab; color:#fff; text-decoration:none}
+
+/*大学 筛选结果 */
+.selectArea_list {background:url(../images/morelist_bg.png) no-repeat top center; height:auto;float:left; border-top:2px #71b3cf solid;}
+.collageList_result {width:962px; overflow:hidden;}
+.collageList_result li {float:left;width:176px;height:140px;display:block;padding: 10px 8px;}
+.collageList_result li a {color:#454545;}
+.collageList_result li a:hover {color:#2958ab;}
+.collageList_result li span {display:block;text-align:center;width:172px;padding:8px 0;}
+
+/*分页 paging*/
+.paging_box {float:right; width:470px; _zoom:1;}
+.page{text-align:right;float:left;font-size:12px;_margin:0;width:375px; }
+.page a{ display:block; float:left;line-height:15px; padding:5px 10px; margin:10px 2px; border:1px solid #ccc; color:#333; font-weight:bold}
+.page .pu{display:block; height:25px;line-height:25px;float:left;padding:0 6px 0 2px;}
+.page .pu i {float:left;display:block;background:url(../images/icon_morecollage_select.png) no-repeat 0 -22px; width:8px;height:10px; margin:8px 1px 2px 3px;}
+.page .pd {display:block;float:left;padding:0px 4px 0 6px;height:25px;line-height:25px; text-align:left;}
+.page .pd i { background:url(../images/icon_morecollage_select.png) no-repeat 4px -41px; width:10px;height:10px; float:right; margin:7px 3px 0 0;_background-position:1px -42px;_margin:7px 0  0 0;}
+.page .pageOn, .page a:hover { border:1px solid #ccc; color:#fff; background:#3aaae8;}
+.pageBtnInput_box {  overflow:hidden;float:left; padding:10px 0;}
+.pageBtnInput_box .pageNum {float:left;display:block; width:35px; height:25px; border:1px #3aaae8 solid; line-height:25px; margin:0 10px 0 0; color:#454545;}
+.pageBtnInput_box .pageBtn {display:block;float:left; cursor:pointer; width:35px; height:25px;color:#454545; background:#fff; border:1px #3aaae8 solid;}
+.page a.pu:hover,.page a.pd:hover {background:#fff;color:#454545;} /*为了解决移过去的背景效果（箭头）而特别写的背景色，这样相对简单~~*/
+
+
+
+
+
+
+/*大学库  招生简章  页面  3D大学网文章列表_more*/
+/*内容页与列表页共用部分*/
+.sectionList,.sectionContent, .rankList {float:left; width:730px; border:1px #d1e1f1 solid;border-top:2px solid #71b3cf; padding-bottom:20px}
+
+/*列表页面*/
+.sectionList h2 {font:bold 18px/26px "微软雅黑"; padding:10px 5px 9px 19px; color:#046a97; background:url(../images/wenzhangliebiao1.png) no-repeat 0 0; height:30px;}
+.listNews {padding:1px 24px;}
+.listNews li {height:34px; line-height:34px;border-bottom:1px dashed #dcdcdc;}
+.listNews li i {display:inline-block; width:3px; height:3px; background:url(../images/edu_index1.gif) no-repeat 0 -687px; float:left;margin: 13px 10px 0 6px;}
+.listNews li span {float:right;}
+.listNews li a {color:#454545;font:14px/28px "\5B8B\4F53";}
+.listNews li a:hover {color:#f60;}
+.sectionPage {width:730px; float:right;padding:5px 10px 5px 0;}
+
+.page_R{ float:right; width:209px;}
+.col_rank{ height:279px; border:1px solid #d8d8d8}
+.rank_title{ background:url(../images/rank_tile_bg.gif) repeat-x scroll; height:29px; border-bottom:1px solid #d8d8d8}
+.rank_title span{ float:left; font-size:12px; font-weight:bold; color:#454545; font-family:"宋体"; line-height:29px; margin-left:12px}
+.rank_title a{ float:right; line-height:29px; color:#04397d; margin-right:10px}
+.rank_pic{ float:left; background:url(../images/icon.png) no-repeat scroll -52px 0px; width:19px; height:229px; margin:11px 15px 0 10px; display:inline}
+.rank_detail{ float:left; width:150px; margin-top:4px}
+.rank_detail li{ width:149px; float:left; line-height:30px}
+.rank_detail li a{ float:left; color:#454545}
+.rank_detail li span{ float:right; font-family:"宋体"; color:#999}
+.xindongfang_ad{ width:208px; height:157px; border:1px solid #d8d8d8; margin-top:15px}
+.col_add{ height:242px; border:1px solid #d8d8d8; margin-top:14px;}
+.col_netadd{ display:inline-block; padding-left:3px; padding-top:5px}
+.add_list{ float:left; margin:7px 0 0 8px; width:55px; height:55px; border:1px solid #d8d8d8; display:inline}
+.col_name_list{ margin-top:7px; display:inline-block}
+.col_name_list .add_name{ line-height:20px; padding:0 6px 0 13px; color:#454545}
+.statement{ height:111px; border:1px solid #d8d8d8; background-color:#fafafa; margin-top:14px}
+.statement p{ padding:9px; letter-spacing:1px; line-height:18px}
+.statement a{ padding-left:9px; color:#454545}
+
+
+/*新闻详细页*/
+.sectionContent h2 {font:bold 26px/60px "\5B8B\4F53"; padding:10px 5px 9px 19px; color:#046a97; background:url(../images/wenzhangliebiao1.png) no-repeat 0 -115px; text-align:center; position:relative; height:1%;overflow:hidden;}
+.contentTime {float:left;color:#666;}
+.fontSize {float:right; padding-right:20px; color:#666;}
+.contentTime, .fontSize { padding-left: 20px;padding-top: 10px;}
+.fontSize span {cursor:pointer; font-weight:bold; padding-right:5px;}
+.fontSize span.small {color: #666666;  font-size: 10px; padding-left: 3px;     padding-right: 3px;}
+.fontSize span.big { color: #0B3B8C; font-size: 13px; padding-left: 3px;     padding-right: 3px;}
+
+/*新闻内容部分 sectionMainC*/
+.sectionMainC {margin:0 auto;font:14px/1.75 "宋体",arial,sans-serif;text-indent:2em;}
+.sectionMainC p {padding:10px 15px;}
+/*分享 shareTxt  未完成
+.Tool-Article-QQ { overflow: hidden;     padding: 20px 12px 15px 0;     width: 730px; }
+.Tool-Article-QQ ul {     float: right; }
+.Tool-Article-QQ li {     float: right;     margin-right: 20px; }
+.Tool-Article-QQ .shareTxt {     color: #333333;     line-height: 17px;     margin-right: 10px; }
+.Tool-Article-QQ .tmblogbox {     position: relative; }
+.Tool-Article-QQ a.tmblog {     background: url("http://mat1.gtimg.com/news/imgcss_article_qq/sharetool_bt.png") no-repeat scroll 0 0 transparent;     padding-left: 26px; }
+.Tool-Article-QQ a.tqzone {     background: url("http://mat1.gtimg.com/news/imgcss_article_qq/sharetool_bt.png") no-repeat scroll 0 -25px transparent; }
+.Tool-Article-QQ a.tpeng {     background: url("http://mat1.gtimg.com/news/imgcss_article_qq/sharetool_bt.png") no-repeat scroll 0 -50px transparent; }*/
+
+/*声明 sectionDeclare*/
+.sectionDeclare {border-top:1px dashed #dadbd6;border-bottom:1px dashed #dadbd6; padding:10px 5px;color:#999;margin:5px 0;}
+.sectionDeclare p {font:12px/14px "\5B8B\4F53";}
+
+/*你应该还会关注*/
+.otherSection { width:730px;}
+.otherSection h3 { color:#454545;font:bold 14px/24px "\5B8B\4F53"; border-bottom:1px #ccc solid;padding:5px; margin:0 20px;}
+.otherSection ul {padding:1px 24px;}
+.otherSection ul li {height:34px; line-height:34px;}
+.otherSection ul li i {display:inline-block; width:3px; height:3px; background:url(../images/edu_index1.gif) no-repeat 0 -687px; float:left;margin: 13px 10px 0 2px;}
+.otherSection ul li span {padding-left:10px;}
+.otherSection ul li a {color:#454545;font:14px/28px "\5B8B\4F53";}
+.otherSection ul li a:hover {color:#f60;}
+
+
+/*高校人气排行 页面*/
+.rankList h2 {background: url("../images/wenzhangliebiao1.png") no-repeat scroll 0 -262px transparent; color: #046A97; font: bold 18px/26px "微软雅黑";height: 50px;padding: 10px 5px 9px 19px; }
+.rankComboxs {float:left; overflow:hidden;width:400px;}
+.rankComboxs select {float:left; height: 25px; margin-left: 7px;margin-right: 5px; margin-top: 14px; width: 121px;}
+.rank_table table{ margin-left:20px; margin-bottom:10px; border:1px solid #d8d8d8}
+.rank_table table tr{ height:34px; border:1px solid #d8d8d8; line-height:34px}
+.rank_table table tr th{ background-color:#eff7ff; font-family:"宋体"; font-size:14px; font-weight:bold}
+.rank_table table tr td{ border:1px solid #d8d8d8; text-align:center; font-size:14px; font-family:"宋体"; color:#454545}
+.rank_table table tr td.rank_num{ width:58px}
+.rank_table table tr td.rank_name{ width:490px}
+
+
+/*高校名单网址 页面*/
+.rank_table table tr.top_title{ background-color:#eff7ff; font-family:"宋体"; font-size:14px; font-weight:bold}
+.rank_table table tr td.col_name{ width:202px;}
+.rank_table table tr td.col_from{ width:147px}
+.rank_table table tr td.col_style{ width:118px}
+.rank_table table tr td.col_nature{ width:118px}
+.rank_table table tr td.if211{ width:48px}
+.rank_table table tr td i.yes{ background:url(../images/index_icon.gif) no-repeat scroll -30px -475px; width:15px; height:15px; display:inline-block}
+
+
+
+
+
+
+
+
+
+
+
+
+

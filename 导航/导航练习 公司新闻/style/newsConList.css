@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.wrap{width:981px; margin:0 auto;overflow:hidden;background:url(../images/border_bg.gif) repeat-y scroll top left;  margin-top:26px;}
+
+
+a{color:#4c4c4c; font-size:12px;}
+.silderL{width:187px; float:left;}
+
+.silderabout h2{border-color: #dfdfdf;border-top-color:#0461A2;border-style: solid;border-width: 2px 1px 0px;color: #0461A2;font-size: 14px;font-weight: bold;height: 23px;padding-left: 10px;padding-top: 9px;}
+.aboutlist{border-top:1px solid #dfdfdf;padding:10px;}
+.aboutlist a{font-weight:400; pading:10px 10px;border-bottom:1px dotted #dfdfdf;color:#666;cursor:pointer;height:21px;background:url("../images/service_point_icon1.gif") no-repeat scroll 8px -51px transparent;padding:7px 0 6px 24px;display:block;font-size:14px;}
+.aboutlist a:hover{color:#0461A2;}
+
+.contentR{width:762px;padding:10px; float:right;border-top:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf; _width:762px;min-height:250px;}
+
+.conDetails{ line-height:32px;height:32px; }
+.conDetails dl{color: #666;font:24px/26px "Microsoft Yahei" ;  line-height:30px;height: 30px;padding: 8px 10px 10px 10px; text-align:center; border-bottom:1px dashed #666; margin:10px 0 0 0;}
+.conDC{padding:15px 10px;font-size:14px;}
+.newsCon{line-height:32px;font-size:14px;padding:20px 0 20px 15px;overflow:hidden; margin:10px 0 0 0;}
+.newsCon p{text-indent:2em;}
+
+
+/**************************/
+
+
+.clear5{ display:block; clear:both; height:5px; line-height:5; font-size:0;}
+
+.contentHeader{float:left;width:100%; height:32px;background:url(../images/help_point.gif) repeat-x 0 bottom;}
+.contentHeader dl{border-bottom: 2px solid #0461A2;color: #0461A2;float:left;font-size: 14px;font-weight: bold;height: 22px;padding: 8px 10px 0 10px;}
+.conTxt{float:left;display:block;padding:5px 10px;width:96%;font-size:14px;}
+
+.txt_item{line-height:24px;font-size:14px;padding:20px 0;padding-left:15px;overflow:hidden;}
+.bottobarmbox{ position:relative; width:981px; margin:-1px auto 0 auto}
+.leftborder-bottom{ float:left; width:187px; border-top:1px solid #dfdfdf; height:0px;}
+
+
+
+.newslist{ width:720px; margin:0; padding:0; padding:0 0 0 10px; }
+.newslist li{ line-height:30px;border-bottom:1px dashed #f0f0f0;}
+.newslist li span {font-size:12px; font-family: '宋体'; color:#b5b5b5; float:right; text-align:right; padding-right:10px;}
+.newslist a{ color:#737373; text-decoration:none; padding:0 0 0 10px;height:30px; line-height:30px; background:url(../images/newslist_icon.png) no-repeat 0 5px;}
+.newslist a:hover {text-decoration:underline; color:#f60;}
+
+
+
+.page{text-align:right;float:right;font-size:12px;margin-right:20px;_width:370px;_padding-left:320px;_margin:0; }
+.page a{ display:block; float:left;line-height:15px; padding:5px 10px; margin:10px 2px;; border:1px solid #ccc; color:#6e6e6e;}
+.page a:hover{border:1px solid #f60; color:#f60; text-decoration:none;}
+.page .pu{background:url(../images/zone_pageUp.png) no-repeat 0px 6px; height:25px;line-height:25px;width:50px;float:left;padding:0 6px 0 2px;}
+.page .pd{width:50px;float:left;padding:0px 10px 0px 0;height:25px;line-height:25px;background:url(../images/zone_pageDown.png) no-repeat 46px 6px;}
+.page .pageOn{ border:1px solid #f60; color:#f60;}
+.clear{display:block; clear:both; height:0px; line-height:0; font-size:0; }
