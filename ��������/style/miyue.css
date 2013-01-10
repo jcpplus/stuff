@@ -92,9 +92,10 @@ a.nav_1,a.nav_2,a.nav_3,a.nav_4,.a.nav_5,a.nav_6{background-image:url(../images/
 .main_box{margin:0 auto; overflow:hidden;zoom:1; background: url("../images/footer_bg.jpg") no-repeat scroll center bottom transparent;
     margin-top: 20px;}
 .full_box{ overflow:hidden;zoom:1; margin:14px auto}
-.left_video{ float:left; width:300px;overflow:hidden; background:#fff}
+.left_video{ float:left;overflow:hidden; background:#fff}
 .video_con{ border:1px solid #b1b1b1; height:247px}
-.right_ad{ float:right; width:665px; height:249px; overflow:hidden; background:#fff}
+.right_ad{ float:right;  background:#fff}
+.r {height: 250px;}
 
 
 .sign_up{}
