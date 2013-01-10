@@ -1,0 +1,39 @@
+h1{margin:0;padding:20px 0;font-size:16px;}
+ol{padding-left:20px;line-height:130%;}
+#box{width:600px;text-align:left;margin:0 auto;padding-top:80px;}
+#suggest,#suggest2{width:200px;}
+.gray{color:gray;}
+.ac_results {background:#fff;border:1px solid #7f9db9;position: absolute;z-index: 10000;display: none;}
+.ac_results ul{margin:0;padding:0;list-style:none;}
+.ac_results li a{white-space: nowrap;text-decoration:none;display:block;color:#05a;padding:1px 3px;}
+.ac_results li{border:1px solid #fff;}
+.ac_over,.ac_results li a:hover {background:#c8e3fc;}
+.ac_results li a span{float:right;}
+.ac_result_tip{border-bottom:1px dashed #666;padding:3px;}
+em{font-style:normal}
+.a_search_bd dd #suggest{}
+.a_search_bd dd #suggest .gray{ float:none; width:auto; border:none; border-bottom:1px dashed #ccc}
+.had {
+	CLEAR: both
+}
+.had STRONG {
+	LINE-HEIGHT: 25px; FLOAT: left
+}
+.had EM {
+	LINE-HEIGHT: 25px; FLOAT: left
+}
+.had STRONG {
+	WIDTH: 72px; FONT-WEIGHT: bold
+}
+.had .choose {
+	Z-INDEX: 1; BORDER-BOTTOM: #ffb35c 1px solid; BORDER-LEFT: #ffb35c 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 20px; MARGIN: 0px 5px 5px 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: inline; WHITE-SPACE: nowrap; BACKGROUND: #ffffd9; FLOAT: left; HEIGHT: 20px; COLOR: black; VERTICAL-ALIGN: middle; BORDER-TOP: #ffb35c 1px solid; BORDER-RIGHT: #ffb35c 1px solid; PADDING-TOP: 0px
+}
+.had I {
+	FONT-STYLE: normal; BACKGROUND: #fff
+}
+.had .choose EM {
+	COLOR: #000; FONT-SIZE: 12px
+}
+.had .choose .del {
+	Z-INDEX: 10; POSITION: relative; WIDTH: 13px; DISPLAY: inline-block; BACKGROUND: url(../img/close.png) no-repeat 0px 0px; HEIGHT: 13px; OVERFLOW: hidden; TOP: 4px; CURSOR: pointer; RIGHT: -2px
+}

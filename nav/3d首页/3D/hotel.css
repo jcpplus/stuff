@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mainL{ width:250px; float:left}
+.mainR{ width:720px; float:right}
+.a_search{ border:2px solid #35abff; height:1%;}
+.a_search h2 { height:41px; line-height:41px;  margin:1px; background:#e9f6ff url(../images/hotel_ico.gif) no-repeat 6px 8px; padding-left:40px; font-size:16px; color:#0461a2;  font-family:"microsoft yahei", Arial, \5b8b\4f53; font-weight:normal;}
+.a_search_bd{border-top:1px solid #d3edff;height:198px;padding-top:10px;float:left;overflow:hidden;}
+.a_search_bd dl{width:242px;float:left;line-height:23px;padding:4px 0;}
+.a_search_bd dt{width:84px;float:left;text-align:right;}
+.a_search_bd dt span{color:#FF6600;font-family:"宋体";padding-right:3px;}
+.a_search_bd dd{width:158px;float:left;text-align:left;}
+.a_search_bd dd div{width:137px;float:left;border:1px solid #ccc;padding-right:4px;overflow:hidden;}
+.a_search_bd .se01{width:143px;height:23px;border:1px solid #ccc;padding:2px 4px 2px 0;font-size:12px;}
+.a_search_bd .se02{width:53px;height:22px;border:1px solid #ccc;padding:2px 2px 2px 0;font-size:12px;margin-left:2px;float:left;}
+.a_search_bd .btn{width:82px;height:25px;background:url(../images/hotel_ico.gif) 0 -41px no-repeat;float:left;margin-left:84px;_margin-left:42px;text-indent:-9999px; display:block;}
+.in01{ width:141px; height:21px;}
+
+.b_ads h2{ border-bottom:1px solid #ccc; padding-bottom:3px; font-size:14px; font-weight:bold;}
+.b_ads_bd { height:200px;} 
+#city_layer { border:1px solid #ccc;}
+#provinceul a {padding:3px; display:block; float:left;}
+#provinceul a.on{ background:#0461A2; color:#fff; }
+#cityul { height:20px; border-top:1px dashed #ccc; margin-top:5px; padding-top:5px;}
+#cityul a { color:#000; }
+
+* HTML #newsSlider UL.pagination LI A { TEXT-ALIGN: center; LINE-HEIGHT: 20px; WIDTH: 20px; FONT-FAMILY: \5b8b\4f53; BACKGROUND:#fff; FLOAT: left; HEIGHT: 20px; COLOR: #000000; FONT-SIZE: 12px; FONT-WEIGHT: normal;  TEXT-DECORATION: none; margin: 0px 7px 0 7px; }
+* HTML #newsSlider UL.pagination LI.active A { BACKGROUND:#035c9c; COLOR: #ffffff;   }
+
+
+/*3d酒店推荐*/
+.c_title{ height:28px;line-height:28px; _line-height:24px;border-bottom:2px solid #0461a2;}
+.c_title h4{ font-size:16px;font-family:"microsoft yahei", Arial, \5b8b\4f53; font-weight:normal; color:#0461a2; padding-left:5px; _margin-top:4px; }
+
+.c_title span a{ width:47px; height:24px; display:block; float:left; margin:4px 0 0 1px; text-align:center;}
+.c_title span a.on,.c_title span a:hover{ background:url(../images/hotel_ico.gif) no-repeat 0 -75px; color:#fff; text-decoration:none;}
+.c_title span .more{ background:none; width:55px;}
+.c_title span .more:hover{ background:none;color:#ff9500;}
+.c_list dl { width:170px; float:left; margin:10px 13px 0 0; position:relative; height:150px;}
+.c_list dl dt img { width:170px; height:120px;}
+.c_list dl dd { height:30px; line-height:30px;}
+.c_txt1 { color:#0461a2; float:left;}
+.c_txt2 { color:#ff0000; float:right}
+.c_3d_ico{ position:absolute; width:65px; height:65px; top:0; right:0; background:url(../images/d_index.png) no-repeat -98px 0;}
+.c_list dl.end { margin-right:0;}
+.Cline{ border-bottom:1px dashed #ddd; height:10px; display:block; margin-bottom:10px;}
+.d_list{height:100px;}
+.d_list ul{ width:230px; float:left; border-left:1px solid #ddd; padding-left:10px;}
+.d_list ul.start{border-left:0; padding-left:0;}
+.d_list ul li { height:20px; line-height:20px;}
+.d_txt1{ color:#ff0000; margin-right:15px; width:50px;display:inline;float:left;}
+
+
+
+
+.position{ line-height:28px;font-family:\5B8B\4F53,"microsoft yahei",Arial}
+
+
+/**************** 全国酒店导航页 *********************************/
+
+.nav_title_icon{ overflow:hidden;zoom:1; height:auto; line-height:32px;}
+.nav_title_icon h3{ font-size:18px; color:#025a9a; font-family:"microsoft yahei",Arial,\5B8B\4F53; font-size:16px; padding-left:50px; height:36px;}
+.nav_title_icon .nav_icon{ width:46px; height:36px; float:left; background:url(../images/bg_pic.gif) 0 -43px;}
+.jiudian_nav{ border:1px solid #ccc; padding:14px;}
+
+.province h3{ height:31px; line-height:31px; font-size:14px; color:#025a9a; background:url(../images/leiye.gif) 0 -76px; overflow:hidden;zoom:1;}
+.jiudian_icon{ background:url(../images/leiye.gif) -41px -63px; height:13px; width:13px; float:left; margin:9px 3px 0 12px}
+.place_con{ padding:6px 35px; line-height:22px; background:#e9f2f9}
+.place_con a{ padding:0 6px}
+.jd_btm{ background:url(../images/leiye.gif) 0 -110px; height:8px; font-size:0}
+
+
+.chinahotel{ margin:10px auto;}
+.chinahotel a:hover{ color:#f60}
+.clearfix {display: block;}
+.chinahotel li { background: url(../images/ncdgujtp.gif)  repeat-y 0 0 #fff; border-bottom: 1px dotted #ddd;  padding: 20px 10px;overflow:hidden;zoom:1; height:auto; line-height:20px;}
+.chinahotel li .cityclass {float: left; font-size: 14px; font-weight: bold;overflow: hidden;text-align: right; width: 130px;}
+.chinahotel li .cityhotel {color: #999999;float: left;font-size: 10px;overflow: hidden;padding-left: 28px;width: 760px;}
+.cityhotel span {margin-right: 10px;white-space: nowrap;}
+.cityhotel span a { color: #000000;font-size: 12px;margin-right: 2px;}
+
+
+
+
+
+
+
+
+

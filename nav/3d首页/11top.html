@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<link rel="stylesheet" href="12.css" />
+	<script type="text/javascript" src="js/jquery7.js"></script>
+	<script type="text/javascript">
+			
+		$(document).ready(function(){
+			$(".navmyid1").hover(
+				function(){
+					$(".myid").addClass("on");
+					$(".myid").show();
+				},
+				function(){
+					$(".myid").hide();
+				}
+			);
+		});
+		
+	</script>
+	<title></title>
+</head>
+<body>
+	
+	<div class="wrap">
+		<div class="top">
+			<div class="nav">
+				<ul class="font121">
+					<li class="navmyid1"><a href="#.">我的账号</a></li>
+					<li><a href="#.">我的购物车</a></li>
+					<li><a href="#.">我的圈子</a></li>
+					<li><a href="#.">我的小组</a></li>
+					
+				</ul>
+				
+				<div class="myid font12" >
+					<ul>
+						<li><a href="#.">信息1</a></li>
+						<li><a href="#.">信息2</a></li>
+						<li><a href="#.">信息3</a></li>
+					</ul>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
